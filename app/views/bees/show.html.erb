@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @bee.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @bee.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_bee_path(@bee) %> |
+<%= link_to 'Back', bees_path %>
