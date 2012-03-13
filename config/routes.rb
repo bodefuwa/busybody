@@ -1,4 +1,14 @@
 Busybody::Application.routes.draw do
+  resources :buzzs
+
+  resources :bees
+
+  resources :microposts
+
+  resources :stores
+
+  resources :users
+
   get "say/hello"
 
   get "say/goodbye"
