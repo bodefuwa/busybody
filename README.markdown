@@ -2,7 +2,7 @@
 
 Busybody is a web-application from Rawneed, Inc. Creative Media and Technology that allows customers find you by making you findable.
 
-by [Bode Fuwa]
+by [Bode Fuwa for Rawneed, Inc.]
 
 ****************************************************************************
 
