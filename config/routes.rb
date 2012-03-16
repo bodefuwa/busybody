@@ -1,4 +1,6 @@
 Busybody::Application.routes.draw do
+  get "users/new"
+
   get "pages/home"
 
   get "pages/contact"
@@ -20,7 +22,20 @@ Busybody::Application.routes.draw do
   get "say/goodbye"
 
   get "welcome/index"
+  
+  match '/signup', :to => 'users#new'
 
+  match '/contact', :to => 'pages#contact'
+
+  match '/about', :to => 'pages#about'
+  
+  match '/help', :to => 'pages#help'
+
+  root :to => 'pages#home'
+
+  # root_path => '/'
+  # root_url => 'http://localhost:3000/'
+   
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
